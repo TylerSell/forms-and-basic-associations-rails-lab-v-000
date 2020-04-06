@@ -2,6 +2,7 @@
 
 <p>Artist: <%= @song.artist_name %></p>
 <p>Genre: <%= @song.genre.name %></p>
-<p>Artist: <%= @song.notes.each do |note| %></p>
+<p>Artist: <%= @song.notes.each do |note| %>
               <%= note.content %>
             <% end %>
+</p>
